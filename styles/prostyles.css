@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.prohead
+{
+    background-image: url(/images/cover3.jpg);
+    color: yellow;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 500px;
+    background-size: cover;
+}
+
+.nav
+{
+    display: inline;
+    margin: 30px 50px;
+    border-bottom: solid 3px;
+    border-color: #00BFFF;
+    padding: 10px;
+    color: white;
+    
+}
+
+.nav a
+{
+text-decoration: none;
+color: white;
+  
+}
+
+.nav:hover
+{
+    
+    display: inline;
+    text-decoration: none;
+    margin: 30px 50px;
+    border-bottom: solid 3px;
+    background-color: #00BFFF;
+    border-color: #00BFFF;
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+    
+  
+    
+
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.title
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+.title:hover
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.para
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    
+}
+
+.para:hover
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+
+.aboutsec{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #778899;
+}
+
+.aboutsec h3{
+    margin: 35px 25px 5px 25px;
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.aboutsec h3:hover{
+  margin: 35px 25px 5px 25px;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.about
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.pro1
+{
+    width: 50%;
+    height: 220px;
+    border-radius: 50%;
+    margin: 20px 20px;
+}
+
+
+.para2
+{
+    margin: 10px 20px 20px 20px;
+    text-align: justify;
+    color: white;
+
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+  .trophy
+  {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: gray;
+  }
+
+.trophy h3
+  {
+  margin: 35px 25px 5px 25px;
+  background-color: white;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.trophy h3:hover
+  {
+  margin: 35px 25px 5px 25px;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+  .cups
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+
+
+  }
+
+.quotes
+{
+  display: flex;
+  flex-direction: column;
+  background-color: cadetblue;
+  color: black;
+  box-sizing: border-box;
+  height: 550px;
+  background-image: url(/images/quotes2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.quotes h3
+{
+margin: 35px 25px 5px 25px;
+background-color: white;
+width: fit-content;
+padding: 10px;
+border-radius: 5px;
+}
+
+
+.quotes h3:hover
+{
+margin: 35px 25px 5px 25px;
+background-color: black;
+color: white;
+width: fit-content;
+padding: 10px;
+border-radius: 5px;
+}
+
+  .cards
+  {
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-evenly;   
+  }
+
+  .card
+  {
+    display: flex;
+    width: 200px;
+    height: 100px;
+    background-color: #FAF9F6;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .card:hover
+  {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+  }
+
+
+.footer
+  {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: gray;
+  }
+
+.footer  h3
+{
+margin: 35px 25px 5px 25px;
+background-color: white;
+width: fit-content;
+padding: 10px;
+border-radius: 5px;
+}
+
+
+.footer h3:hover
+{
+margin: 35px 25px 5px 25px;
+background-color: black;
+color: white;
+width: fit-content;
+padding: 10px;
+border-radius: 5px;
+}
+
+
+.social
+  {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    height: 100px;
+  }
+
+
+  .copyrightinfo
+  {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+
