@@ -1,3 +1,4 @@
+/* global styles */
 *{
     margin: 0px;
     padding: 0px;
@@ -5,22 +6,24 @@
 
 }
 
+/* Section 1 - Header  */
 .prohead
 {
     background-image: url(/images/cover3.jpg);
     color: yellow;
-    background-size: cover;
+    background-size: cover; /* Fit image to the section background - not to repeat */
     box-sizing: border-box;
     height: 500px;
     background-size: cover;
 }
 
+/* Navigation Bar */
 .nav
 {
     display: inline;
     margin: 30px 50px;
     border-bottom: solid 3px;
-    border-color: #00BFFF;
+    border-color: #3498DB;
     padding: 10px;
     color: white;
     
@@ -40,8 +43,8 @@ color: white;
     text-decoration: none;
     margin: 30px 50px;
     border-bottom: solid 3px;
-    background-color: #00BFFF;
-    border-color: #00BFFF;
+    background-color: #3498DB;
+    border-color: #3498DB;
     color: black;
     padding: 10px;
     border-radius: 4px;
@@ -56,6 +59,7 @@ color: white;
     flex-direction: row;
     justify-content: flex-end;
 }
+
 
 .title
 {
@@ -93,6 +97,7 @@ color: white;
     margin-top: 20px;
     font-size: 20px;
 }
+ /* Section 1 Header - Ends */
 
 
 
@@ -100,7 +105,7 @@ color: white;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: #778899;
+    background-color: #6495ED;
 }
 
 .aboutsec h3{
